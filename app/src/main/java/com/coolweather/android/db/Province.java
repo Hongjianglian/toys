@@ -8,6 +8,9 @@ public class Province extends DataSupport {
     private String provinceName;
     private int provinceCode;
 
+    public Province() {
+    }
+
     public int getId() {
         return id;
     }
